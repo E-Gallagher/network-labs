@@ -19,11 +19,11 @@ Build two separate IPv4 subnets and route traffic between them.
 ## IP plan
 Subnet A: 192.168.10.0/24
 - Router G0/0: 192.168.10.1
-- PC1: 192.168.10.10, GW 192.168.10.1
+- PC0: 192.168.10.10, GW 192.168.10.1
 
 Subnet B: 192.168.20.0/24
 - Router G0/1: 192.168.20.1
-- PC2: 192.168.20.10, GW 192.168.20.1
+- PC1: 192.168.20.10, GW 192.168.20.1
 
 ## Validation target
 From PC1:
@@ -39,3 +39,9 @@ Router:
 - ping proof screenshot (ping-proof.png)
 - router output pasted into router-outputs.txt
 - Packet Tracer file (lab-001.pkt)
+
+##Results
+  Ping PC0 → PC1 succeeded after initial ARP timeout 
+
+  Router interfaces up/up”
+
