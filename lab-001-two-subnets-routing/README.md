@@ -40,8 +40,7 @@ Router:
 - router output pasted into router-outputs.txt
 - Packet Tracer file (lab-001.pkt)
 
-##Results
-  Ping PC0 → PC1 succeeded after initial ARP timeout 
-
-  Router interfaces up/up”
+## Results
+- Ping PC0 → PC1 succeeded after initial ARP timeout 
+- Router interfaces up/up”
 
